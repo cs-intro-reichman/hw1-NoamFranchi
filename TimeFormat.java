@@ -17,6 +17,9 @@ public class TimeFormat {
 			timeSuffix = "PM";
 			hours -= 12;
 		}
+		else if(hours == 12){
+			timeSuffix = "PM";
+		}
 		else {
 			timeSuffix = "AM";
 		}
